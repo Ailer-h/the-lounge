@@ -20,8 +20,9 @@
         </div>
     </div>
 
-    <div class="library" id="library">
-        
+    <div class="center">
+        <div class="library" id="library">
+        </div>
     </div>
 
 </body>

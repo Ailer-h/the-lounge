@@ -8,11 +8,12 @@ class Playlist {
     constructor(name, id) {
         this.name = name;
         this.id = id;
+        // this.img = `../images/${id}.jpg`;
     }
 
 }
 
-const playlists = [new Playlist("Playlist 1", "play1"), new Playlist("Playlist 2", "play2"), new Playlist("Playlist 3", "play3")];
+const playlists = [new Playlist("Playlist 1", "play1"), new Playlist("Playlist 2", "play2"), new Playlist("Playlist 3", "play3"), new Playlist("Playlist 4", "play4"), new Playlist("Playlist 5", "play5"), new Playlist("Playlist 6", "play6")];
 
 function addPlaylists() {
 
@@ -29,4 +30,4 @@ function addPlaylists() {
 }
 
 addPlaylists();
-console.log(playlists[1].name)
+console.log(playlists[1].img)

@@ -1,4 +1,6 @@
 /* General tweaks */
+@import url(https://fonts.google.com/specimen/Ubuntu?query=ubu);
+
 :root{
 
     --accent_colour: #F7CA18;
@@ -8,8 +10,6 @@
     --complementary_colour2: #0d0d0d;
 
 }
-
-@import url(https://fonts.google.com/specimen/Ubuntu?query=ubu);
 
 *{
 
@@ -74,18 +74,21 @@ body{
 /* End of navigation bar */
 
 /* General body */
-.library{
+.center{
+    display: flex;
+    justify-content: center;
+}
 
+.library{
+    
     height: 33em;
-    width: 90vw;
+    width: 78em;
     margin-top: 1em;
 
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-auto-rows: min-content;
     gap: 1em .5em;
-
-    place-items: center;
 
     overflow-y: scroll;
     overflow-x: hidden;
@@ -132,9 +135,17 @@ body{
 
 .playlist img{
 
-    margin-top: .4em;
-    width: 8em;
-    height: 8em;
+    margin-top: .5em;
+    width: 7em;
+    height: 7em;
+    transition: 200ms;
+
+}
+
+.playlist:hover img{
+
+    margin-bottom: .5em;
+    transition: 200ms;
 
 }
 /* End of general body */
