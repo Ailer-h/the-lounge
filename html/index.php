@@ -16,7 +16,7 @@
         <div>
             <a href="#"><button>Search</button></a>
             <a href="#"><button>New Playlist</button></a>
-            <a href="#"><button>Profile</button></a>
+            <a href="#"><button onclick="goToPlaylist()">Profile</button></a>
         </div>
     </div>
 
@@ -24,7 +24,6 @@
         <div class="library" id="library">
         </div>
     </div>
-
 </body>
 <script src="../js/library.js"></script>
 

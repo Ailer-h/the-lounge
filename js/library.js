@@ -1,9 +1,24 @@
+class Song {
+
+    name;
+    artist;
+    length;
+
+    constructor(name,artist,length){
+        this.name = name;
+        this.artist = artist;
+        this.length = length;
+    }
+
+}
+
 class Playlist {
 
     name;
     id;
     link = "#";
     img = "placeholder.jpg"
+    songs = []
 
     constructor(name, id) {
         this.name = name;
@@ -30,4 +45,3 @@ function addPlaylists() {
 }
 
 addPlaylists();
-console.log(playlists[1].img)
